@@ -34,7 +34,7 @@ this project uses mysql
 
 - `php artisan migrate` to migrate the tables (or if for some reason that doesn't work there's also a db.sql file included on the root of this app.Just import that on phpmyadmin and you should be good to go.)
 
-- `php artisan serve` (or just visit http://localhost/auth_crud/public if you are using XAMPP)
+- `php artisan serve` (or just visit http://localhost/laravel5.6auth-CRUD-master/public if you are using XAMPP)
 
 Now visit http://localhost:8000 to try the demo.
 
