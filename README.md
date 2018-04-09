@@ -28,7 +28,9 @@ this project uses mysql
 
 - `composer install` - to install all the dependencies
 
--create a database named 'auth_crud' on phpmyadmin
+- in  this repository the .env file is not hidden from the gitignore file just to make everything easy for you to get up and running.If you plan to have this project on a production server it is recommended to change the application key.To do so run `php artisan key:generate` command and laravel will generate a key for you.Also to be extra careful you can change the database name on the .env file and on the db.sql file.
+
+-create a database named 'auth_crud' (or the name you chose for your database)
 
 - `php artisan migrate` to migrate the tables (or if for some reason that doesn't work there's also a db.sql file included on the root of this app.Just import that on phpmyadmin and you should be good to go.)
 
