@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 09, 2018 at 05:50 AM
+-- Generation Time: Apr 09, 2018 at 05:53 AM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -83,13 +83,6 @@ CREATE TABLE `users` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'test', 'test@test.com', '$2y$10$jp1T.tFhAbpwd04wQT./0u2D/9KK34rCaD1dZlg6zRvM39.bHU6Ka', 'jowQUR5Nn0kfUmHQYrs8wM7zpnKSa93EIYDTGz2pPgmWALCCxKFrW4unk2ma', '2018-04-07 02:50:58', '2018-04-07 02:50:58');
 
 --
 -- Indexes for dumped tables
